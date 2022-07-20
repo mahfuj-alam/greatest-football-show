@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-
+/* ============= animation here=============  */
 @keyframes heading {
   0% {
     font-size: 0;
@@ -53,6 +53,7 @@
     transform: scale(150%);
   }
 }
+
 .banner-section:hover .banner-title h1 {
   animation: heading 2s ease-in-out;
 }
@@ -64,6 +65,7 @@
 .banner-section:hover .banner-image img {
   animation: banner-img 2s ease-in;
 }
+/* ============== animation end here============  */
 
 /* ==============banner area start================  */
 
