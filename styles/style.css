@@ -62,7 +62,7 @@
   animation-timing-function: linear;
 }
 .banner-section:hover .banner-image img {
-  animation: banner-img 2s ease-in-out;
+  animation: banner-img 2s ease-in;
 }
 
 /* ==============banner area start================  */
