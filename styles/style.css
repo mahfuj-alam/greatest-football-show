@@ -154,6 +154,53 @@
   font-size: 1rem;
   border-radius: 5px;
 }
+/* ========== upcoming-match page styles ============= */
+.blog-menu .upcoming-btn {
+  background-color: #dd0000;
+  color: #ffffff;
+  border: none;
+}
+.match-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.match-img img {
+  width: 100%;
+}
+.match-img span {
+  margin: 0 10px;
+}
+.match-info {
+  text-align: center;
+  margin-top: 50px;
+}
+.blog-card .match-info h5 {
+  margin: 0;
+}
+
+/* ================ All group page styles ===========================  */
+.blog-menu .all-group-btn {
+  background-color: #dd0000;
+  color: #ffffff;
+  border: none;
+}
+.blog-card table {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+}
+.blog-card table,
+th,
+tr,
+td {
+  border: 1px solid #b9b9b9;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 8px;
+  background-color: rgb(170, 227, 247);
+}
+
 /* ============= footer area start=============  */
 footer {
   background-color: #161616;
