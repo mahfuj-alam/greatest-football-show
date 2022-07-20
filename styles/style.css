@@ -117,8 +117,9 @@
     border-radius: 5px;
 }
 
-.blog-card h3 {
+.blog-card h5 {
     margin: 20px 0;
+    font-size: 1.25rem;
 }
 
 .blog-card .clock {
@@ -184,6 +185,9 @@
 /* ================== media query for desktop ========================= */
 
 @media only screen and (min-width: 1024px) {
+    header {
+        margin-bottom: 2.5rem;
+    }
     .banner-section {
         width: 90%;
         margin: 0 auto;
@@ -208,5 +212,42 @@
     .banner-image img {
         width: 100%;
         margin-left: 20px;
+    }
+    /* ============== main area start =====================  */
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .blog-items {
+        display: grid;
+        grid-template-columns: 250px auto;
+    }
+    .blog-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        background-color: #161616;
+        height: fit-content;
+        width: 200px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .blog-menu a {
+        display: block;
+        font-size: 1rem;
+        margin: 10px 10px;
+        width: 150px;
+        background-color: #fff;
+    }
+    .blog-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .blog-card h5 {
+        margin: 20px 0;
+        font-size: 1rem;
     }
 }
