@@ -8,11 +8,17 @@
 
 /* ==============banner area start================  */
 
+.banner-section {
+    width: 95%;
+    margin: 0 auto;
+}
+
 .top-banner {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: #161616;
-    padding: 2rem 1.5rem;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 10px;
 }
 
 .banner-title {
@@ -52,3 +58,155 @@
 
 
 /* ===============main area start==================  */
+
+
+/* main {
+    width: 95%;
+    margin: 0 auto;
+} */
+
+.blog-info {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.blog-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.blog-menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 210px;
+    color: #161616;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid gray;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.blog-menu .blog-btn {
+    background-color: #dd0000;
+    color: #ffffff;
+    border: none;
+}
+
+.blog-card {
+    margin: 1rem 0;
+    padding: 15px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.blog-card img {
+    width: 100%;
+}
+
+.blog-card button {
+    margin: 15px 0;
+    padding: 5px 12px;
+    font-size: 1rem;
+    color: #161616;
+    border-radius: 5px;
+}
+
+.blog-card h3 {
+    margin: 20px 0;
+}
+
+.blog-card .clock {
+    margin-right: 2rem;
+}
+
+.blog-card .watch {
+    margin-right: 10px;
+}
+
+.blog-card .comment {
+    margin-right: 10px;
+}
+
+
+/* ================= 
+  media query start ======================  */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner-section {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .top-banner {
+        display: flex;
+    }
+    .banner-area {
+        width: 50%;
+    }
+    .banner-title {
+        margin-right: 30px;
+    }
+    .banner-title {
+        text-align: start;
+    }
+    .banner-image img {
+        width: 100%;
+        margin-left: 20px;
+    }
+    /* =========== main area media query ===============  */
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .blog-menu {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .blog-menu a {
+        font-size: 1.1rem;
+        margin: 0 10px;
+    }
+    .blog-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+
+/* ================== media query for desktop ========================= */
+
+@media only screen and (min-width: 1024px) {
+    .banner-section {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .top-banner {
+        display: flex;
+    }
+    .banner-area {
+        width: 50%;
+    }
+    .banner-title {
+        margin-right: 20px;
+    }
+    .banner-title {
+        text-align: start;
+    }
+    .banner-title h1 {
+        font-size: 2.5em;
+        text-align: start;
+    }
+    .banner-image img {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
